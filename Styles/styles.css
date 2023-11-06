@@ -1,3 +1,25 @@
+/* font-family: 'Fugaz One', sans-serif; */
+
+@font-face {
+    font-family: Montauk;
+    src: url(../assets/Fonts/Montauk-Regular.otf);
+}
+
+@font-face {
+    font-family: MontaukB;
+    src: url(../assets/Fonts/Montauk-Bold.otf);
+}
+
+@font-face {
+    font-family: MontaukI;
+    src: url(../assets/Fonts/Montauk-Italic.otf);
+}
+
+@font-face {
+    font-family: MontaukL;
+    src: url(../assets/Fonts/Montauk-Light.otf);
+}
+
 body {
     background-image: url(../assets/bgtexture.jpg);
 }
@@ -6,3 +28,131 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+.adjustNav a {
+    font-size: 20px;
+    color: #5F002B;
+    font-family: 'Fugaz One', sans-serif;
+}
+
+.navSpacing {
+    margin-right: 90px;
+    margin-left: 166px;
+}
+
+mainHero {
+    width: 100%;
+
+}
+
+.hero-image {
+    margin-top: 44px;
+    background-image: url(../assets/homeHero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.space-options {
+    margin-right: 50px;
+}
+
+.buttons-dwn {
+    margin-top: 24px;
+}
+
+.introSect {
+    margin-top: 100px;
+}
+
+.mainimg {
+    width: 120%;
+    position: relative;
+    bottom: 0;
+
+}
+
+.muzzlesIntro {
+    background-color: white;
+    margin-top: 20;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.introContainer {
+    margin-top: 30px;
+    color: rgba(95, 0, 43, 1);
+
+}
+
+.introContainer h1 {
+    font-size: 50px;
+    font-family: 'Fugaz One', sans-serif;;
+}
+
+.introContainer p {
+    font-size: 20px;
+    font-family: Montauk;
+}
+
+.introTxt {
+    margin-left: 40px;
+    margin-right: 64px;
+}
+
+.yummySando {
+    height: 420px;
+    max-width: 610px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
