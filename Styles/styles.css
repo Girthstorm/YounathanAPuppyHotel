@@ -1,0 +1,8 @@
+body {
+    background-image: url(../assets/bgtexture.jpg);
+}
+
+.adjustNav {
+    display: flex;
+    justify-content: flex-end;
+}
