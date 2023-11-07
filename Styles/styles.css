@@ -1,9 +1,5 @@
 .photoBG{
     background-image: url(../assets/bgtexture.jpg);
-    /* background-size:cover;
-    width: 100%;
-    height: 100%; */
-
 }
 
 .photoTxt{
@@ -26,9 +22,9 @@ p{
       min-height: 0vw;
     }
   }
-  @media (min-width: 1920px) {
+@media (min-width: 1920px) {
     #logo {
-      width: 250px;
+      width: 450px;
     }
-  }
+}
 
