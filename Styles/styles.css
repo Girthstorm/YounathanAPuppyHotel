@@ -29,6 +29,13 @@ body {
     justify-content: flex-end;
 }
 
+.containerImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
 .adjustNav a {
     font-size: 20px;
     color: #5F002B;
@@ -47,6 +54,8 @@ mainHero {
 
 .hero-image {
     margin-top: 44px;
+    width: 100%;
+    height: auto;
     background-image: url(../assets/homeHero.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -68,10 +77,11 @@ mainHero {
 
 .introSect {
     margin-top: 100px;
+    margin-left: 300px;
 }
 
 .mainimg {
-    width: 120%;
+    width: 100%;
     position: relative;
     bottom: 0;
 
@@ -82,12 +92,15 @@ mainHero {
     margin-top: 20;
     padding-left: 0;
     padding-right: 0;
+    
 }
 
 .introContainer {
     margin-top: 30px;
+    margin-right: 0px;
+    
     color: rgba(95, 0, 43, 1);
-
+    max-width: 950px;
 }
 
 .introContainer h1 {
