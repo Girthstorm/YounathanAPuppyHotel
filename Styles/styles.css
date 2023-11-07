@@ -1,0 +1,12 @@
+.photoBG{
+    background-image: url(../assets/bgtexture.jpg);
+    /* background-size:cover;
+    width: 100%;
+    height: 100%; */
+
+}
+
+.photoTxt{
+    font-family:'Fugaz One';
+    font-size: 22px;
+}
