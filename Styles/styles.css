@@ -92,20 +92,21 @@ mainHero {
     margin-top: 20;
     padding-left: 0;
     padding-right: 0;
-    
+
 }
 
 .introContainer {
     margin-top: 30px;
     margin-right: 0px;
-    
+
     color: rgba(95, 0, 43, 1);
     max-width: 950px;
 }
 
 .introContainer h1 {
     font-size: 50px;
-    font-family: 'Fugaz One', sans-serif;;
+    font-family: 'Fugaz One', sans-serif;
+    ;
 }
 
 .introContainer p {
@@ -122,50 +123,3 @@ mainHero {
     height: 420px;
     max-width: 610px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
