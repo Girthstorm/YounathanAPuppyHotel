@@ -153,6 +153,19 @@ p{
     height: auto;
 }
 
+.alignBackstory {
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+
+
+
+
+
+
 @media (min-width: 320px) {
     #logo {
       width: calc(7.625rem + ((1vw - 3.2px) * 13));
