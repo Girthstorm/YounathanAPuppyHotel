@@ -1,5 +1,7 @@
 /* font-family: 'Fugaz One', sans-serif; */
-
+body{
+    padding: 0;
+}
 @font-face {
     font-family: Montauk;
     src: url(../assets/Fonts/Montauk-Regular.otf);
@@ -46,8 +48,7 @@ body {
 }
 
 .navSpacing {
-    margin-right: 90px;
-    margin-left: 166px;
+    margin-left: 40px;
 }
 
 mainHero {
@@ -81,12 +82,14 @@ mainHero {
 .introSect {
     margin-top: 100px;
     margin-left: 300px;
+    margin-bottom: 60px;
 }
 
 .mainimg {
     width: 100%;
     position: relative;
     bottom: 0;
+
 }
 
 .muzzlesIntro {
@@ -139,6 +142,11 @@ mainHero {
 p{
     font-size: calc(10px + 0.390625vw);
 }
+
+.footerFont {
+    font-family: MontaukL;
+}
+
 
 .responsive{
     max-width: 100%;
