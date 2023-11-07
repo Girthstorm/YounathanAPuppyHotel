@@ -10,3 +10,8 @@
     font-family:'Fugaz One';
     font-size: 22px;
 }
+
+p{
+    font-size: calc(10px + 0.390625vw);
+}
+
