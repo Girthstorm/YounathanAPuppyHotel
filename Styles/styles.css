@@ -15,3 +15,20 @@ p{
     font-size: calc(10px + 0.390625vw);
 }
 
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 320px) {
+    #logo {
+      width: calc(2.625rem + ((1vw - 3.2px) * 13));
+      min-height: 0vw;
+    }
+  }
+  @media (min-width: 1920px) {
+    #logo {
+      width: 250px;
+    }
+  }
+
