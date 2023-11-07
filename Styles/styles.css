@@ -35,6 +35,9 @@ body {
     object-fit: cover;
 }
 
+.no-padding {
+    padding-left: 0;
+}
 
 .adjustNav a {
     font-size: 20px;
@@ -84,15 +87,16 @@ mainHero {
     width: 100%;
     position: relative;
     bottom: 0;
-
 }
 
 .muzzlesIntro {
     background-color: white;
-    margin-top: 20;
     padding-left: 0;
     padding-right: 0;
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    
 }
 
 .introContainer {
@@ -106,35 +110,30 @@ mainHero {
 .introContainer h1 {
     font-size: 50px;
     font-family: 'Fugaz One', sans-serif;
-    ;
 }
 
 .introContainer p {
     font-size: 20px;
-    font-family: Montauk;
+    font-family: MontaukL;
+    line-height: 18px;
+    word-spacing: 3px;
+   margin-bottom: 70px;
 }
 
 .introTxt {
     margin-left: 40px;
-    margin-right: 64px;
+    margin-right: 55px;
 }
 
 .yummySando {
-    height: 420px;
-    max-width: 610px;
+    height: 449.5px;
+    width: 674px !important;
 }
 
-.photoBG{
-    background-image: url(../assets/bgtexture.jpg);
-    /* background-size:cover;
-    width: 100%;
-    height: 100%; */
-
-}
 
 .photoTxt{
     font-family:'Fugaz One';
-    font-size: 22px;
+    font-size: 29px;
 }
 
 p{
@@ -148,7 +147,7 @@ p{
 
 @media (min-width: 320px) {
     #logo {
-      width: calc(2.625rem + ((1vw - 3.2px) * 13));
+      width: calc(7.625rem + ((1vw - 3.2px) * 13));
       min-height: 0vw;
     }
   }
