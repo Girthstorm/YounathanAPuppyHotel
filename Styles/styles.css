@@ -61,7 +61,7 @@ body {
     margin-left: 40px;
 }
 
-mainHero {
+.mainHero {
     width: 100%;
 
 }
@@ -166,42 +166,27 @@ p{
 
  /* Start About Page */
 .alignBackstory {
-    
-
-}
-/* 
-.backstoryImage {
-    max-width: 674px;
-    float: left;
-}
-
-.wrapper {
-    margin: 60px auto;
-    width: 70%;
-}
-
-.text-box {
+    padding-left: 100px;
+    padding-right: 100px;
     color: rgba(95, 0, 43, 1);
-    background-color: white;
+    height: 675px;
 }
-
-
-
-.backStry {
-    margin-bottom: 300px;
-} */
 
 .img-responsive {
     max-width: 100%;
     height: auto;
+    max-height: 675px;
   }
 
 .text-box {
   background-color: #f7f7f7;
-  padding: 20px;
+  padding-left: 40px;
+  padding-right: 64px;
+  padding-top: 30px;
   height: 100%;
   display: flex;
   flex-direction: column;
+  
   
 }
 
@@ -210,7 +195,18 @@ p{
 }
 
 .text-box p {
-    font-size: 12px;
+    font-size: 20px;
+    font-family: MontaukL;
+    word-spacing: 1px;
+    line-height: 20px;
+}
+
+.bgColor {
+    background-color: white;
+}
+
+.margin-top {
+    margin-top: 62px;
 }
 
 
