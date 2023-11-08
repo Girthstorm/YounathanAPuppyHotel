@@ -42,11 +42,16 @@ body {
     justify-content: flex-end;
 }
 
+
+
 .containerImg {
     width: 100%;
     height: auto;
     object-fit: cover;
+    
 }
+
+
 
 .no-padding {
     padding-left: 0;
@@ -103,6 +108,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: end;
+    margin-left: 20px;
     
 }
 
