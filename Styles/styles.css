@@ -1,4 +1,14 @@
 /* font-family: 'Fugaz One', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+
 body{
     padding: 0;
 }
@@ -153,18 +163,58 @@ p{
     height: auto;
 }
 
-.alignBackstory {
-    display: flex;
-    align-items: center;
-    justify-content: center
 
+ /* Start About Page */
+.alignBackstory {
+    
+
+}
+/* 
+.backstoryImage {
+    max-width: 674px;
+    float: left;
+}
+
+.wrapper {
+    margin: 60px auto;
+    width: 70%;
+}
+
+.text-box {
+    color: rgba(95, 0, 43, 1);
+    background-color: white;
 }
 
 
 
+.backStry {
+    margin-bottom: 300px;
+} */
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+.text-box {
+  background-color: #f7f7f7;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.text-box h2 {
+    font-size: 50px;
+}
+
+.text-box p {
+    font-size: 12px;
+}
 
 
-
+/* End About Page */
 
 @media (min-width: 320px) {
     #logo {
