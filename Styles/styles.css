@@ -8,8 +8,10 @@ body {
 }
 h1{
     background-color: white;
-    margin-left: 5%;
-    margin-right: 5%;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 20px;
+height: 80px;
 }
 .hero-image{
     float: right;
