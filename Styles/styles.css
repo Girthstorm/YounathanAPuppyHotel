@@ -11,6 +11,7 @@
 
 body{
     padding: 0;
+    color: #5F002B;
 }
 @font-face {
     font-family: Montauk;
@@ -157,9 +158,13 @@ p{
 
 
  /* Start About Page */
-.alignBackstory {
+.paddingSides {
     padding-left: 100px;
     padding-right: 100px;
+}
+
+ .alignBackstory {
+    
     color: rgba(95, 0, 43, 1);
     height: 675px;
 }
@@ -201,6 +206,10 @@ p{
 
 .margin-top {
     margin-top: 62px;
+}
+
+.card-margin-bottom {
+    margin-bottom: 20px;
 }
 
 
