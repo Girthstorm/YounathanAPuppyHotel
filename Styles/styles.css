@@ -42,8 +42,6 @@ body {
     justify-content: flex-end;
 }
 
-
-
 .containerImg {
     width: 100%;
     height: auto;
@@ -57,6 +55,11 @@ body {
     padding-left: 0;
 }
 
+.adjustNav a {
+    font-size: 20px;
+    color: #5F002B;
+    font-family: 'Fugaz One', sans-serif;
+}
 
 .navSpacing {
     margin-left: 40px;
@@ -82,11 +85,12 @@ body {
     min-height: 500px;
 }
 
+.space-options {
+    margin-right: 50px;
+}
 
-
-.no-padding {
-    padding: 0px;
-    margin-left: -40px;
+.buttons-dwn {
+    margin-top: 24px;
 }
 
 .introSect {
@@ -99,6 +103,7 @@ body {
     width: 100%;
     position: relative;
     bottom: 0;
+
 }
 
 .muzzlesIntro {
@@ -148,8 +153,8 @@ body {
     font-size: 29px;
 }
 
- .photoP{
-  font-size: calc(10px + 0.390625vw);
+p{
+    font-size: calc(10px + 0.390625vw);
 }
 
 .footerFont {
@@ -158,8 +163,8 @@ body {
 
 
 .responsive{
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -222,36 +227,25 @@ body {
 /* End About Page */
 
 
-@media (max-width: 1920px) {
-
-  #logo {
-    width: 550px;
-  }
+.h1changes{
+    background-color: white;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 20px;
+height: 80px;
+}
+.hero-image-right{
+    float: right;
 }
 
-@media (min-width: 440px) {
-
-  #logo {
-    width: calc(7.625rem + ((1vw - 3.2px) * 13));
-    min-height: 0vw;
+@media (min-width: 320px) {
+    #logo {
+      width: calc(7.625rem + ((1vw - 3.2px) * 13));
+      min-height: 0vw;
+    }
   }
-  
-}
-
-@media screen and (max-width: 440px) {
- 
-
-  #logo {
-    width: 150px;
+  @media (min-width: 1920px) {
+    #logo {
+      width: 250px;
+    }
   }
-
-  [class*="col-"] {
-    width: 100%;
-    padding: 18px;
-  }
-
-  .photoP{
-    font-size: 9px;
-  }
-
-}
