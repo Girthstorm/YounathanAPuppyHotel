@@ -53,6 +53,7 @@ body {
 
 .no-padding {
     padding-left: 0;
+    padding-right: 0;
 }
 
 .adjustNav a {
@@ -99,9 +100,16 @@ body {
 }
 
 .mainimg {
-    max-height: 28rem;
+    height: 100%;
     width: 45rem;
+    padding-left: 0px;
+    object-fit: cover;
+}
 
+.mainImgResize{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .muzzlesIntro {
@@ -200,6 +208,7 @@ p{
     font-family: MontaukL;
     word-spacing: 1px;
     line-height: 20px;
+    overflow-y: auto;
 }
 
 .bgColor {
@@ -264,7 +273,12 @@ height: 80px;
   }
 
 
-  /* Home Responsivness */
+  /* About Responsivness */
+@media screen and (max-width: 1365px) {
+    .text-box p{
+        font-size: 15px;
+    }
+}
 
  
     
