@@ -238,14 +238,36 @@ height: 80px;
     float: right;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 1920px) {
+
+    #logo {
+      width: 550px;
+    }
+  }
+  
+  @media (min-width: 440px) {
+  
     #logo {
       width: calc(7.625rem + ((1vw - 3.2px) * 13));
       min-height: 0vw;
     }
+    
   }
-  @media (min-width: 1920px) {
+  
+  @media screen and (max-width: 440px) {
+   
+  
     #logo {
-      width: 250px;
+      width: 150px;
     }
+  
+    [class*="col-"] {
+      width: 100%;
+      padding: 18px;
+    }
+  
+    .photoP{
+      font-size: 9px;
+    }
+  
   }
