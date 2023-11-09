@@ -59,7 +59,7 @@ body {
 .adjustNav a {
     font-size: 20px;
     color: #5F002B;
-    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Fugaz One', sans-serif !important;
 }
 
 .navSpacing {
@@ -79,6 +79,19 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+.hero-image-cater{
+    margin-top: 44px;
+    height: auto;
+    background-image: url(../assets/cateringHero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
     position: relative;
     display: flex;
     justify-content: center;
