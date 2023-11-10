@@ -87,16 +87,15 @@ body {
 }
 .hero-image-cater{
     margin-top: 44px;
-    height: auto;
+    
     background-image: url(../assets/cateringHero.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 500px;
+    
+    
+    height: 500px;
 }
 
 .space-options {
@@ -296,3 +295,32 @@ height: 80px;
  
     
   
+
+
+
+
+
+
+
+
+
+
+/* Catering Page */
+
+.text-guy {
+    font-family: Montauk;
+}
+
+.hero-image-cater-sm {
+    margin-top: 44px;
+    
+    background-image: url(../assets/cateringHero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    min-height: 200px;
+    max-height: 300px;
+    
+}
