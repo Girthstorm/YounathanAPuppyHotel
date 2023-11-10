@@ -294,7 +294,6 @@ height: 80px;
     }
 }
 
-
 /* when Screen is bigger than a Laptop L */
 @media (min-width: 1441px) {
     #box{
