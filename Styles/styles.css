@@ -153,8 +153,17 @@ body {
     font-size: 29px;
 }
 
-p{
+.photoP{
     font-size: calc(10px + 0.390625vw);
+    padding: 0;
+}
+
+.aboutP{
+    font-size: calc(9px + 0.390625vw);
+}
+
+.aboutTxt{
+    font-family: MontaukL;
 }
 
 .footerFont {
@@ -188,16 +197,14 @@ p{
 
 .text-box {
   background-color: #f7f7f7;
-  padding-left: 40px;
-  padding-right: 64px;
+  padding-left: 35px;
+  padding-right: 35px;
   padding-top: 30px;
+  padding-bottom: 10px;
   height: 100%;
   max-height: 720px;
   display: flex;
   flex-direction: column;
-  
-  
-  
 }
 
 .text-box h2 {
@@ -205,10 +212,13 @@ p{
 }
 
 .text-box p {
-    font-size: 20px;
     font-family: MontaukL;
     word-spacing: 1px;
     line-height: 20px;
+}
+
+.cardspacing{
+    margin-bottom: 1.5%;
 }
 
 .bgColor {
@@ -243,9 +253,59 @@ height: 80px;
       width: calc(7.625rem + ((1vw - 3.2px) * 13));
       min-height: 0vw;
     }
-  }
-  @media (min-width: 1920px) {
+}
+
+@media (min-width: 1920px) {
     #logo {
-      width: 250px;
+        width: 150px;
     }
-  }
+}
+
+/* When Screen is Mobile */
+@media screen and (max-width: 440px) {
+
+    #logo {
+        width: 150px;
+    }
+
+    [class*="col-"] {
+        width: 100%;
+        padding: 18px;
+    }
+
+    .photoP{
+        font-size: 9px;
+    }
+
+}
+
+/* When Screen is Laptops through tablet */
+@media (min-width: 440px) and (max-width: 1400px) {
+    #box{
+        width:100%;
+        padding-bottom:18px;
+    }
+
+    #img{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        padding-bottom: 40px;
+    }
+}
+
+
+/* when Screen is bigger than a Laptop L */
+@media (min-width: 1441px) {
+    #box{
+        width:100%;
+        padding-bottom: 40px;
+    }
+
+    #img{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        padding-bottom:18px;
+    }
+}
