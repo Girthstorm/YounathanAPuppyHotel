@@ -245,9 +245,12 @@ p{
     margin-bottom: 20px;
 }
 
-
-
-
+.centerThings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 .h1changes{
     background-color: white;
