@@ -149,9 +149,23 @@ body {
     font-size: 29px;
 }
 
- .photoP{
-  font-size: calc(10px + 0.390625vw);
+.photoP{
+    font-size: calc(10px + 0.390625vw);
+    padding: 0;
 }
+
+.aboutP{
+    font-size: calc(9px + 0.390625vw);
+}
+
+.aboutTxt{
+    font-family: MontaukL;
+}
+
+.cardspacing{
+    margin-bottom: 1.5%;
+}
+
 
 .footerFont {
     font-family: MontaukL;
@@ -211,10 +225,7 @@ body {
     margin-top: 62px;
 }
 
-
-/* End About Page */
-
-
+/* Start of  Photo Page Media*/
 @media (max-width: 1920px) {
 
   #logo {
@@ -247,4 +258,37 @@ body {
     font-size: 9px;
   }
 
+}
+/* End of Photo Page Media */
+
+/* Start of About Page Media */
+/* When Screen is Laptops through tablet */
+@media (min-width: 440px) and (max-width: 1400px) {
+    #box{
+        width:100%;
+        padding-bottom:18px;
+    }
+
+    #img{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        padding-bottom: 40px;
+    }
+}
+
+
+/* when Screen is bigger than a Laptop L */
+@media (min-width: 1441px) {
+    #box{
+        width:100%;
+        padding-bottom: 40px;
+    }
+
+    #img{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        padding-bottom:18px;
+    }
 }
