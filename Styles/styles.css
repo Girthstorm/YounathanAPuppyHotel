@@ -37,28 +37,24 @@ body {
     background-image: url(../assets/bgtexture.jpg);
 }
 
+.ALLSEEINGBORDERRADIUSREMOVER {
+    border-radius: 0;
+}
+
 .adjustNav {
     display: flex;
     justify-content: flex-end;
 }
 
-.containerImg {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    
-}
-
-
-
 .no-padding {
     padding-left: 0;
+    padding-right: 0;
 }
 
 .adjustNav a {
     font-size: 20px;
     color: #5F002B;
-    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Fugaz One', sans-serif !important;
 }
 
 .navSpacing {
@@ -84,6 +80,18 @@ body {
     align-items: center;
     min-height: 500px;
 }
+.hero-image-cater{
+    margin-top: 44px;
+    
+    background-image: url(../assets/cateringHero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+    height: 500px;
+}
 
 .space-options {
     margin-right: 50px;
@@ -95,26 +103,24 @@ body {
 
 .introSect {
     margin-top: 100px;
-    margin-left: 300px;
-    margin-bottom: 60px;
+   
 }
 
 .mainimg {
-    width: 100%;
-    position: relative;
-    bottom: 0;
+    height: 100%;
+    width: 45rem;
+    padding-left: 0px;
+    object-fit: cover;
+}
 
+.mainImgResize{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .muzzlesIntro {
-    background-color: white;
-    padding-left: 0;
-    padding-right: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
-    margin-left: 20px;
-    
+    background-color: white;     
 }
 
 .introContainer {
@@ -158,17 +164,25 @@ body {
     padding: 0;
 }
 
+p{
+    font-size: calc(10px + 0.390625vw);
+}
+
 .aboutP{
     font-size: calc(9px + 0.390625vw);
 }
 
 .aboutTxt{
+    font-size: 13px;
     font-family: MontaukL;
+    
 }
 
 .footerFont {
     font-family: MontaukL;
 }
+
+.aboutImg
 
 
 .responsive{
@@ -189,11 +203,6 @@ body {
     height: 675px;
 }
 
-.img-responsive {
-    max-width: 100%;
-    height: auto;
-    max-height: 675px;
-  }
 
 .text-box {
   background-color: #f7f7f7;
@@ -202,7 +211,6 @@ body {
   padding-top: 30px;
   padding-bottom: 10px;
   height: 100%;
-  max-height: 720px;
   display: flex;
   flex-direction: column;
 }
@@ -215,6 +223,10 @@ body {
     font-family: MontaukL;
     word-spacing: 1px;
     line-height: 20px;
+}
+
+.cardspacing{
+    margin-bottom: 1.5%;
 }
 
 .cardspacing{
@@ -234,7 +246,7 @@ body {
 }
 
 
-/* End About Page */
+
 
 
 .h1changes{
@@ -248,18 +260,22 @@ height: 80px;
     float: right;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 1920px) {
+
+    #logo {
+      width: 550px;
+    }
+  }
+  
+  @media (min-width: 440px) {
+  
     #logo {
       width: calc(7.625rem + ((1vw - 3.2px) * 13));
       min-height: 0vw;
     }
+    
 }
-
-@media (min-width: 1920px) {
-    #logo {
-        width: 150px;
-    }
-}
+/* There is nothing wrong with this area, im totally not really confused on what merge hellscape I caused here */
 
 /* When Screen is Mobile */
 @media screen and (max-width: 440px) {
@@ -276,7 +292,11 @@ height: 80px;
     .photoP{
         font-size: 9px;
     }
-
+    .quirky-text{
+        font-size: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
 
 /* When Screen is Laptops through tablet */
@@ -295,7 +315,7 @@ height: 80px;
 }
 
 /* when Screen is bigger than a Laptop L */
-@media (min-width: 1441px) {
+@media (min-width: 2560px) {
     #box{
         width:100%;
         padding-bottom: 40px;
@@ -307,4 +327,59 @@ height: 80px;
         width:100%;
         padding-bottom:18px;
     }
+  
+    [class*="col-"] {
+      width: 100%;
+      
+    }
+  
+    .photoP{
+      font-size: 9px;
+    }
+  
+  }
+
+
+  /* About Responsivness */
+@media screen and (max-width: 1365px) {
+    .text-box p{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+ 
+    
+  
+
+
+
+
+
+
+
+
+
+
+/* Catering Page */
+
+.text-guy {
+    font-family: Montauk;
+}
+
+.hero-image-cater-sm {
+    margin-top: 44px;
+    
+    background-image: url(../assets/cateringHero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    min-height: 200px;
+    max-height: 300px;
+    
 }
