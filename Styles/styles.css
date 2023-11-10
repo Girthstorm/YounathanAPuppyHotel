@@ -350,23 +350,12 @@ height: 80px;
     }
 }
 
-
-
-
-
- 
-    
-  
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 991px) {
+    .no-pads {
+        padding-left: 0;
+        padding-right: 1px;
+    }
+}
 /* Catering Page */
 
 .text-guy {
